@@ -11,7 +11,7 @@
         console.log({ header });
       });
   }
-  export let isNetlify = header.server && header.server === "Netlify";
+  export let isNetlify = !!header.nfrid;
   // export let isLoading = !!(isNetlify && header);
 </script>
 
@@ -33,7 +33,7 @@
 <h3>Checking Domain: {path}</h3>
 <p>
   Is This Netlify:
-  <span class={header.server === 'Netlify' ? 'success' : 'fail'}>
-     {header.server === 'Netlify' ? 'Yes' : 'No'}
+  <span class={header.nfrid ? 'success' : 'fail'}>
+     {header.nfrid ? 'Yes' : 'No'}
   </span>
 </p>
