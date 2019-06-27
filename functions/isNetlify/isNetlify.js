@@ -8,10 +8,16 @@ exports.handler = async function(event, context) {
       body: "you must specify a path parameter"
     }
   try {
-    const server = await fetch(`https://${path}`).then((res) => res.headers.get("server"))
+    const server = await fetch(`https://${path}`).then((res) => {
+      return {
+        server: res.headers.get("server"),
+        nfrid: res.headers.get("x-nf-request-id")
+      }
+    })
+
     return {
       statusCode: 200,
-      body: JSON.stringify({ server })
+      body: JSON.stringify(server)
     }
   } catch (err) {
     console.log(err) // output to netlify function log
