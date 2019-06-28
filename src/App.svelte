@@ -48,6 +48,7 @@
     color: lightcyan;
   }
   blockquote {
+    display: inline-block;
     background-color: lightyellow;
     border-radius: 10px;
     padding: 10px;
