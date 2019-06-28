@@ -133,9 +133,25 @@
       </summary>
       <blockquote>
         Prepend any url with 'https://is-this.netlify.com', e.g.
-        <a href="https://is-this.netlify.com/barstoolsports.com/anything.html">
-          https://is-this.netlify.com/barstoolsports.com/anything.html
-        </a>
+        <ul>
+          <li>
+            <a
+              href="https://is-this.netlify.com/barstoolsports.com/anything.html">
+              https://is-this.netlify.com/barstoolsports.com/anything.html
+            </a>
+          </li>
+          <li>
+            <a href="https://is-this.netlify.com/https://copaamerica.com">
+              https://is-this.netlify.com/https://copaamerica.com
+            </a>
+          </li>
+          <li>
+            <a href="https://is-this.netlify.com/www.reactjs.org/hooks">
+              https://is-this.netlify.com/www.reactjs.org/hooks
+            </a>
+          </li>
+        </ul>
+
       </blockquote>
     </details>
 
