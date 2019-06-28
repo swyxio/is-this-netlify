@@ -107,7 +107,7 @@
 <main>
   <div class="header">
 
-    <h3 style="display: inline">Entered Domain</h3>
+    <h3>Given Domain</h3>
 
     <div class="domaininput"> {path || 'none'} </div>
   </div>
@@ -130,9 +130,7 @@
 
     <details>
       <summary>
-        (
         <i style="color: lightblue">How to use?</i>
-        )
       </summary>
       <blockquote>
         Prepend any url with 'https://is-this.netlify.com', e.g.
