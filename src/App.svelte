@@ -58,17 +58,18 @@
   <span class="serverheader"> {headers['server']} </span>
 </p>
 
-<blockquote>
-  <p>
-    <strong>how to use:</strong>
-  </p>
-  prepend any url with 'https://is-this.netlify.com', e.g.
-  <a href="https://is-this.netlify.com/barstoolsports.com/anything.html">
-    https://is-this.netlify.com/barstoolsports.com/anything.html
-  </a>
-  .
-</blockquote>
-
+<details>
+  <summary>
+    <strong>New to this? How to use:</strong>
+  </summary>
+  <blockquote>
+    Prepend any url with 'https://is-this.netlify.com', e.g.
+    <a href="https://is-this.netlify.com/barstoolsports.com/anything.html">
+      https://is-this.netlify.com/barstoolsports.com/anything.html
+    </a>
+    .
+  </blockquote>
+</details>
 <details>
   <summary>
     <code>Full Header Dump</code>
