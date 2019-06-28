@@ -11,7 +11,7 @@
         console.log({ headers });
       });
   } else {
-    document.location = "https://is-this.netlify.com/netlify.com";
+    document.location = document.location.origin + "/netlify.com";
   }
   export let isNetlify = !!headers[nfrid]; // is not properly reactive :(
   export let server = headers["server"];
@@ -27,12 +27,12 @@
     font-size: 10rem;
   }
   .domaininput {
-    /* font-size: calc(30px + (100 - 30) * ((100vw - 300px) / (1600 - 300))); */
+    font-size: calc(30px + (100 - 30) * ((100vw - 200px) / (1600 - 200)));
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    font-size: 5vw;
+    /* font-size: 5vw; */
     font-weight: bold;
     color: orangered;
     line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
@@ -48,6 +48,7 @@
     color: lightcyan;
   }
   blockquote {
+    text-align: left;
     display: inline-block;
     background-color: lightyellow;
     border-radius: 10px;
@@ -106,9 +107,6 @@
 
 <main>
   <div class="header">
-
-    <h3>Given Domain</h3>
-
     <div class="domaininput"> {path || 'none'} </div>
   </div>
   <div class="middle">
@@ -119,7 +117,7 @@
 
     <p>
       <span class={'bigtext ' + (headers[nfrid] ? 'success' : 'fail')}>
-         {headers[nfrid] ? 'Yup' : 'Nope'}
+         {headers[nfrid] ? 'Yup 🎉' : 'Not Yet!'}
       </span>
     </p>
 
@@ -130,7 +128,7 @@
 
     <details>
       <summary>
-        <i style="color: lightblue">How to use?</i>
+        <i style="color: lightblue">Usage Examples</i>
       </summary>
       <blockquote>
         Prepend any url with 'https://is-this.netlify.com', e.g.
