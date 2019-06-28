@@ -69,8 +69,12 @@
   .
 </blockquote>
 
-<h3>Header Dump</h3>
-<pre> {JSON.stringify(headers, null, 2)} </pre>
+<details>
+  <summary>
+    <strong>Header Dump</strong>
+  </summary>
+  <pre> {JSON.stringify(headers, null, 2)} </pre>
+</details>
 
 <h3>
   <a href="https://github.com/sw-yx/is-this-netlify">View Source</a>
