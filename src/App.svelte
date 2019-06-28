@@ -10,6 +10,8 @@
         headers = x;
         console.log({ headers });
       });
+  } else {
+    document.location = "https://is-this.netlify.com/netlify.com";
   }
   export let isNetlify = !!headers[nfrid]; // is not properly reactive :(
   export let server = headers["server"];
