@@ -1,7 +1,7 @@
 <script>
   export let name;
   export let nfrid = "x-nf-request-id";
-  export let headers = "potato";
+  export let headers = "no headers loaded yet";
   export let path = document.location.pathname.slice(1);
   if (path.length) {
     fetch(`/.netlify/functions/isNetlify?path=${path}`)
@@ -71,7 +71,7 @@
 
 <details>
   <summary>
-    <strong>Header Dump</strong>
+    <code>Full Header Dump</code>
   </summary>
   <pre> {JSON.stringify(headers, null, 2)} </pre>
 </details>
