@@ -13,7 +13,7 @@
   } else {
     document.location = document.location.origin + "/netlify.com";
   }
-  export let isNetlify = !!headers[nfrid]; // is not properly reactive :(
+  let isNetlify = !!headers[nfrid]; // is not properly reactive :(
   export let server = headers["server"];
   // export let isLoading = !!(isNetlify && headers);
 </script>

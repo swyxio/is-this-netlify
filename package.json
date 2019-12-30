@@ -12,6 +12,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "netlify-lambda": "^1.6.3",
     "sirv-cli": "^0.4.4"
   },
   "scripts": {
@@ -19,6 +20,7 @@
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
     "start": "sirv public --single",
+    "postinstall": "netlify-lambda install",
     "start:dev": "sirv public --single --dev"
   }
 }
