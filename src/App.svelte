@@ -170,7 +170,7 @@
       <a href="https://github.com/sw-yx/is-this-netlify">
         View Source and Request Features
       </a>
-      for this project
+      for this project or <a href="https://github.com/netlify/netlify-browser-extension">get the browser extension</a>
     </div>
   </div>
 </main>

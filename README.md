@@ -9,3 +9,7 @@ examples:
 - https://is-this.netlify.com/barstoolsports.com
 - https://is-this.netlify.com/https://copaamerica.com
 - https://is-this.netlify.com/www.reactjs.org/hooks
+
+## Browser Extension
+
+Want this functionality in your desktop browser? https://github.com/netlify/netlify-browser-extension
