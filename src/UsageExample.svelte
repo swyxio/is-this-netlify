@@ -10,6 +10,9 @@
     overflow-y: hidden;
     /* white-space: nowrap; */
   }
+  blockquote li a {
+    color: darkblue
+  }
 </style>
 <details>
   <summary>
