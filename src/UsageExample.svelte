@@ -81,7 +81,7 @@
     <div class="UsageExample-introduction">
       <p>
         Prepend any URL address with<br>
-        <code>https://is-this.netlify.com/</code>
+        <code>https://is-this.netlify.app/</code>
       </p>
       <p class="UsageExample-introduction-footer">
         For example:
@@ -89,18 +89,18 @@
     </div>
     <ul class="UsageExample-list">
       <li class="UsageExample-list-item">
-        <a href="https://is-this.netlify.com/barstoolsports.com/anything.html">
-          https://is-this.netlify.com/<span>barstoolsports.com/anything.html</span>
+        <a href="https://is-this.netlify.app/barstoolsports.com/anything.html">
+          https://is-this.netlify.app/<span>barstoolsports.com/anything.html</span>
         </a>
       </li>
       <li class="UsageExample-list-item">
-        <a href="https://is-this.netlify.com/https://copaamerica.com">
-          https://is-this.netlify.com/<span>https://copaamerica.com</span>
+        <a href="https://is-this.netlify.app/https://copaamerica.com">
+          https://is-this.netlify.app/<span>https://copaamerica.com</span>
         </a>
       </li>
       <li class="UsageExample-list-item">
-        <a href="https://is-this.netlify.com/www.reactjs.org/hooks">
-          https://is-this.netlify.com/<span>www.reactjs.org/hooks</span>
+        <a href="https://is-this.netlify.app/www.reactjs.org/hooks">
+          https://is-this.netlify.app/<span>www.reactjs.org/hooks</span>
         </a>
       </li>
     </ul>
