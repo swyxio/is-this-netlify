@@ -99,8 +99,8 @@
         </a>
       </li>
       <li class="UsageExample-list-item">
-        <a href="https://is-this.netlify.app/www.reactjs.org/hooks">
-          https://is-this.netlify.app/<span>www.reactjs.org/hooks</span>
+        <a href="https://is-this.netlify.app/https://smashingmagazine.com">
+          https://is-this.netlify.app/<span>https://smashingmagazine.com</span>
         </a>
       </li>
     </ul>
