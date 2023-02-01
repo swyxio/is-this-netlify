@@ -89,18 +89,18 @@
     </div>
     <ul class="UsageExample-list">
       <li class="UsageExample-list-item">
-        <a href="https://is-this.netlify.app/barstoolsports.com/anything.html">
-          https://is-this.netlify.app/<span>barstoolsports.com/anything.html</span>
+        <a href="https://is-this.netlify.app/petsofnetlify.com/index.html">
+          https://is-this.netlify.app/<span>petsofnetlify.com/index.html</span>
         </a>
       </li>
       <li class="UsageExample-list-item">
-        <a href="https://is-this.netlify.app/https://copaamerica.com">
-          https://is-this.netlify.app/<span>https://copaamerica.com</span>
+        <a href="https://is-this.netlify.app/https://alpro.com">
+          https://is-this.netlify.app/<span>https://alpro.com</span>
         </a>
       </li>
       <li class="UsageExample-list-item">
-        <a href="https://is-this.netlify.app/www.reactjs.org/hooks">
-          https://is-this.netlify.app/<span>www.reactjs.org/hooks</span>
+        <a href="https://is-this.netlify.app/www.astro.build/showcase">
+          https://is-this.netlify.app/<span>www.astro.build/showcase</span>
         </a>
       </li>
     </ul>
